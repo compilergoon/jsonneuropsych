@@ -1,7 +1,7 @@
 # jsonneuropsych
 schema for reports 
 fyi schema for neuropsych report i've been using to generate reports; 
-{
+
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "Neuropsychological Evaluation Report",
   "type": "object",
@@ -15,7 +15,7 @@ fyi schema for neuropsych report i've been using to generate reports;
     "test_results",
     "diagnostic_impressions",
     "recommendations"
-  ],
+  
   "properties": {
     "report_metadata": {
       "type": "object",
